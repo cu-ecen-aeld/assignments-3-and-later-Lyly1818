@@ -69,7 +69,7 @@ int main(int argc,char *argv[])
     // close(fd);
     //handling failure
     
-    if (close(fd)!= -1)
+    if (close(fd)== -1)
     {
         syslog(LOG_ERR, "Failed to close");
         closelog();

@@ -31,5 +31,3 @@ const char *my_username()
 return "Lyly1818";
 }
 
-    return "todo-please-enter-your-username-here-in-my_username";
-}
